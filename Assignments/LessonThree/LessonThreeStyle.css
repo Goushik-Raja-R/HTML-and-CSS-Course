@@ -1,0 +1,175 @@
+
+    .uber-button{
+        background-color: black;
+        color:white;
+        height: 45px;
+        width: 120px;
+        font-weight: bold;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+    }
+    .uber-button:hover{
+        opacity: 0.7;
+    }
+
+
+    .amazon-button{
+        background-color: rgb(241, 199, 16);
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        color: black;
+        border:none;
+        margin-left: 4px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .amazon-button:hover{
+        background-color: rgb(255, 255, 0);
+    }
+
+
+
+    .github-button{
+        background-color: green;
+        height: 40px;
+        width: 80px;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        font-weight:bold;
+        margin-left: 4px;
+        cursor: pointer;
+        transition:box-shadow 0.15s;
+    }
+    .github-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .Bootstrap-button{
+        background-color: purple;
+        height:40px;
+        width: 120px;
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+        border:none;
+        margin-left: 4px;
+        cursor: pointer;
+        transition: background-color 0.15s,color 0.15s;
+    }
+    .Bootstrap-button:hover{
+        background-color: violet;
+        color: purple;
+    }
+    
+
+    .Bootstrap2-button{
+        background-color: white;
+        color: purple;
+        height: 40px;
+        width: 80px;
+        font-weight: bold;
+        border-radius: 2px;
+        border-color: rgb(79, 37, 79);
+        margin-left: 4px;
+        cursor: pointer;
+        transition: background-color 0,15s,color 0.15s,border 0.15s;
+    }
+    .Bootstrap2-button:hover{
+        background-color: violet;
+        color: purple;
+        border: none;
+    }
+
+
+    .Linkedin-button{
+        background-color: blue;
+        color: white;
+        width: 200px;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 18px;
+        border:none;
+        margin-left: 4px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+    }
+    .Linkedin-button:hover{
+        background-color: rgb(100, 100, 225);
+    }
+
+
+    .Linkedin2-button{
+        background-color: white;
+        color: blue;
+        height: 40px;
+        width: 70px;
+        font-weight: bold;
+        border-color: rgb(99, 99, 230);
+        border-radius: 20px;
+        margin-left: 4px;
+        cursor: pointer;
+        transition: background-color 0.15s,color 0.15s;
+    }
+    .Linkedin2-button:hover{
+        background-color: rgb(77, 77, 238);
+        color:white;
+    }
+    
+    .first{
+        color: blue;
+ 
+     }
+     .first a{
+         color:inherit;
+         text-decoration: none;
+     }
+     .first:hover{
+         color:brown;
+     }
+     .first:hover a{
+         color: inherit;
+     }
+     .Second{
+         color: black;
+         font-weight: bold;
+     }
+     .Third{
+         color: green;
+         font-weight: bold;
+     }
+     .Fourth{
+         color:black;  
+     }
+     .add-to-cart{
+         background-color: yellow;
+         height: 45px;
+         width: 100px;
+         border:none;
+         color: black;
+         font-weight: bold;
+         border-radius: 10px;
+         cursor: pointer;
+         transition: opacity 0.15s;
+     }
+     .add-to-cart:active{
+         opacity: 0.7;
+     }
+     .buy-now{
+         background-color:orange;
+         height: 45px;
+         width: 100px;
+         border:none;
+         color: black;
+         font-weight: bold;
+         border-radius: 10px;
+         cursor: pointer;
+         margin-left: 4px;
+         transition: opacity 0.15s;
+     }
+     .buy-now:active{
+         opacity: 0.7;
+     }
