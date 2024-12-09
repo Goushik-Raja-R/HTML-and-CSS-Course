@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",intial-scale="1.0">
+        <title>Challenge Exercise</title>
+        <style>
+            .firstname{
+              display: inline-block;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              
+            }
+            ::placeholder{
+                padding-left: 10px;
+            }
+            .lastname{
+                margin-left: 15px;
+                display: inline-block;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .email{
+                display: block;
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .signUp{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: blue;
+                color: white;
+                width: 200px;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 5px;
+                font-weight: bold;
+                cursor: pointer;
+                transition:  background-color 0.15s;
+            }
+            .signUp:active{
+                color: white;
+                background-color: rgb(113, 113, 228);
+            } 
+            .uber{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .pickup{
+               padding-top: 5px;
+               padding-bottom: 5px;
+               display: block;
+               margin-bottom: 8px;
+               background-color: rgb(202, 202, 225);
+               border:none;
+            }
+            .destination{
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-bottom: 15px;
+                background-color: rgb(202, 202, 225);
+                border:none;
+                display: block;
+            }
+            .request{
+                margin-bottom: 7px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                cursor: pointer;
+                transition: background-color 0.15s,color 0.15s;
+            }
+            .schedule{
+                padding-top: 5px;
+                padding-bottom: 5px;
+                cursor: pointer;
+                transition: background-color 0.15s,color 0.15s;
+            }
+            .request:hover,
+            .schedule:hover{
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+       <input class="firstname" type="searchbox" placeholder="First name">
+       <input class="lastname" type="searchbox" placeholder="Last name">
+       <input class="email" type="searchbox" placeholder="Email">
+       <p class="signUp">
+        Sign Up
+       </p> 
+       <p class="uber">
+        Request a ride now
+       </p>
+       <input class="pickup" type="searchbox" placeholder="Enter pickup location">
+       <input class="destination" type="searchbox" placeholder="Enter destination">
+       <button class="request">Request now</button>
+       <button class="schedule">Schedule for later</button>
+    </body>
+</html>

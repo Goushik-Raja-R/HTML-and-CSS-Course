@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title> Seventh lesson</title>
+        <style>
+            .searchbox{
+              width: 90px; 
+              transition: box-shadow 0,15s;
+            }
+            .searchbox:hover{
+                box-shadow: 5px 5px 10px rgba(0,0,0,0.15); 
+            }
+            .googlesearch{
+                width: 200px;
+                transition: box-shadow 0,15s;
+                border: none;
+                border-radius: 10px;
+                margin-left: 40px;
+            }
+            .googlesearch:hover{
+                box-shadow: 5px 5px 10px rgba(0,0,0,0.15); 
+                border: none;
+            }
+            .Etext{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color:rgb(131, 166, 236);
+                margin-top: 20px;
+                margin-bottom: 8px;
+            }
+            .email{
+              margin-bottom: 5px;
+            }
+            .text{
+                color:rgb(131, 166, 236);
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 5px;
+                margin-bottom: 8px;
+            }
+            .agree{
+                color: white;
+                background-color: rgb(88, 88, 231);
+                width: 150px;
+                text-align: center;
+                border-radius: 18px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-top: 4px;
+                transition: color 0,15s, background-color 0,15s;
+                margin-bottom: 25px;
+            }
+            .agree:hover{
+                cursor: pointer;
+            }
+            .agree:active{
+                background-color: blue;
+                color:white;
+                margin-top: 20px;
+            }
+            .picture{
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                object-fit: cover; 
+                vertical-align: middle; 
+                margin-right: 5px;
+            }
+            .check{
+                font-size: 18px;
+                border: none;
+                width: 170px;
+                vertical-align: middle; 
+            }
+            .tweet-button{
+                background-color: rgb(29, 155, 240);
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 18px;
+                cursor: pointer;
+                border: none;
+                font-weight: bold;
+                margin-right: 8px;
+                transition: box-shadow 0.15s;
+         }
+             .tweet-button:hover{
+                      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+                }
+             .tweet-button:active{
+                    background-color: rgb(29, 155, 240);
+                    color:white;
+                 }
+        </style>
+    </head>
+    <body>
+        <input class="searchbox" type="textbox" placeholder="Search">
+        <input class="googlesearch" type="textbox" placeholder="Search Google or type url">
+        <p class="Etext">Email</p>
+        <input class="email" type="textbox" placeholder="Enter Email">
+        <h6 class ="text">By clicking Agree & Join, you agree to the Privacy policy</h6>
+        <p class="agree">Agree & Join</p>
+        <img class="picture" src="/Images/Shrine.jpg" alt="shrine">
+        <input class="check" placeholder="What's Happening">
+        <button class="tweet-button">Tweet</button>
+    </body>
+</html>
