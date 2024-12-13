@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",intial-scale="1.0">
+        <title>Ninth Lesson</title>
+        <style>
+           .red-square{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+           }
+           .green-circle{
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            border-radius: 75px;
+            display: inline-block;
+           }
+           .checkbox-element{
+            margin-bottom: 20px;
+           }
+
+           .Install-music{
+            background-color: rgb(41, 37, 37);
+            color: white;
+            width: 300px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+           }
+           .Install-music1{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 10px;
+            font-weight: bold;
+           }
+           .Install-music2{
+            color: rgb(220, 204, 204);
+            padding-left: 10px;
+            font-size: 12px;
+           }
+           .picture{
+             width:50px;
+             height: 50px;
+             object-fit: cover; 
+             border-radius: 25px;
+             vertical-align: middle;
+           }
+           .search{
+            vertical-align: middle;
+            border: none;
+           }
+           .tweet-button{
+                background-color: rgb(29, 155, 240);
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 18px;
+                cursor: pointer;
+                border: none;
+                font-weight: bold;
+                margin-right: 8px;
+                transition: box-shadow 0.15s;
+         }
+             .tweet-button:hover{
+                      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+                }
+             .tweet-button:active{
+                    background-color: rgb(29, 155, 240);
+                    color:white;
+                 }
+        </style>
+    </head>
+    <body>
+        <div class="red-square"></div>
+        <div class="green-circle"></div>
+        <div class="checkbox-element">
+           <p>
+            Satisfied with our service?
+           </p> 
+           <button>Yes</button>
+           <button>No</button>
+        </div>
+        <div class="Install-music">
+          <p class="Install-music1">
+            Install Youtube Music
+          </p>
+         <p class="Install-music2">
+            Add Youtube Music to your desktop for quick ans easy access
+         </p>
+        </div>
+        <div>
+            <img class="picture" src="/Images/Shrine.jpg" alt="shrine">
+            <input class="search" type="searchbox" placeholder="What's happening?">
+            <button class="tweet-button">Tweet</button>
+        </div>
+    </body>
+</html>
